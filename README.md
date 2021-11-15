@@ -13,7 +13,7 @@ make install
 * packagemanager deploy your-project -s server.com -u username -p password
 
 ## Live link
-
+https://ayuhersi.github.io/First-JS-Project/
 ## Known Bugs
 There's no known bugs that I know of yet
 ## Technologies Used
