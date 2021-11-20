@@ -21,27 +21,32 @@ if (month < 0 || month == 12) {
 } else if (month == " ") {
         alert("This field cannot be empty");
         return false;
-} else; {
+} else if (month < 13 ){
+        alert("Enter valid date")
+}else; {
             d.setMonth(month);
 
 
-// setting up the year
-if (month< 0 ){
+// setting up the year a
+if (year < 0 ){
     alert ("Enter valid date");
 } else if (year == " ") {
         alert("This field cannot be empty");
-         return false;
-} else; {
+         return false;  
+} else if (year > 12 ){
+        alert("Enter valid date")
+}
+else; {
             d.setYear(year);
         
 }
-//connecting days of the week to names
+//adding days of the week and akan names
 var day = d.getDay();
 var days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
 var male = [ 'Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', "Kwame"]
 var female = [ 'Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama']
 
-//calculating function
+//assigning names to days
 function getAkan() {
     var ismale = document.getElementById('male').checked;
     var isfemale = document.getElementById('female').checked;
@@ -107,13 +112,15 @@ function getAkan() {
 
 
     }
-    }
-    getAkan();
-    function calculatingDay(){
-        year = document.getElementById('year').value;
-        cc = parseInt(year.substring(0,2));
-    }
+   
 
 }
+}
+getAkan();
+function calculatingDay(){
+    year = document.getElementById('year').value;
+    cc = parseInt(year.substring(0,2));
+}
+
 
 }
