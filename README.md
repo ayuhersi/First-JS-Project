@@ -17,7 +17,7 @@ https://ayuhersi.github.io/First-JS-Project/
 ## Known Bugs
 There's no known bugs that I know of yet
 ## Technologies Used
-I created this project on a surface laptop. The tools I used were Windows Terminal,Ubuntu(ZSH),VSCode and git hub 
+HTML,JAVASCRIPT, and CSS
 ## Support and contact details
 If you find a problem please let me know by sending me an email ayub.hersi@student.moringaschool.com
 ### License
